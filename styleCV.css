@@ -1,0 +1,177 @@
+h1  { 
+    text-align:     center;
+    }
+
+h3  {
+     text-align: center; font-weight: normal;
+    }
+
+p   { 
+    font-family:    'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    text-align:     justify ; 
+    padding:        0 0 0 20px; /*tabulation*/
+    }
+
+.boxB p {
+    text-align:     center ; 
+    }
+
+body { 
+    font-size:          large ;
+    margin:             25px 80px 25px 80px;
+    font-family:        'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    background-image:   url("texture.jpg");
+    background-repeat:  repeat;
+    }
+
+li  { 
+    font-family:    'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:     justify; 
+    } 
+
+span.gras {         /*ou bien "li span" si seulement dans li */
+    font-weight:    bold;
+    }
+
+span.italique {     /*ou bien "li span" si seulement dans li */
+    font-style:     italic;
+    }
+
+a   {
+    font-family:        'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size:          1em; text-align: center; font-weight:bold ;
+    text-decoration:    none;
+    color:              blue;
+    }
+
+a:hover {               /* Apparence au survol des liens */
+   text-decoration:     underline;
+   color:               green;
+    } 
+
+
+.image-gauche { 
+    float:          left;  
+    vertical-align: top; 
+    width:          300px;
+} 
+
+.photo_oiseau {
+    width : 90px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.boxA {
+    display :        flex ;
+    flex-direction:  wrap;
+    flex-wrap:       wrap; /*row*/
+    justify-content: space-around ;
+    align-items:     center;
+    margin-left :         10px ;  /*marge autour box A ici un peu plus grande pour espacer image avec box en-dessous */
+    margin-bottom :       10px ; 
+}
+
+.el:nth-child(2),.el:nth-child(3) {   
+    background:     honeydew; 
+    padding :       40px; /*encadré titre pour marge interieur sinon collé au texte */
+    border-radius : 3em 1em 4em 1em / 2em 3em 1em 3em ; 
+    box-shadow:     12px 12px 2px 1px rgba(107, 107, 122, 0.342); 
+}
+
+.boxB{ 
+    display:            flex;    
+    flex-wrap:          nowrap ;
+    justify-content:    space-around;
+    align-items:        flex-start;
+    margin-left :       10px ;  /*marge autour box A ici un peu plus grande pour espacer image avec box en-dessous */
+    margin-bottom :     10px ; 
+   background:          #FFFDD2;   
+   border:              1px solid rgb(250, 240, 231);
+}
+
+.elem_1, .elem_2, .elem_3 {
+    /*border:           2px solid goldenrod ;*/
+    padding :           20px ;
+}
+
+.boxC   {
+        display:               flex ;
+        flex-direction:        column;
+        flex-wrap:             wrap;
+        justify-content:       space-around ;
+        text-align:            justify center;
+        padding-left :         60px; /*marges interieures */
+        padding-right :        60px; /*marges interieures */
+        background:            #fff6f5 ;
+        margin-left :          10px ;  /*marge autour box A ici un peu plus grande pour espacer image avec box en-dessous */
+        margin-bottom :        10px ;
+        opacity :              0.85 ;
+        border:                2px solid rgb(250, 247, 244);
+    }
+    
+
+.boxD   {
+    display:               flex ;
+    flex-direction:        column;
+    flex-wrap:             wrap;
+    justify-content:       space-around ;
+    text-align:            justify center;
+    padding-left :         60px; /*marges interieures */
+    padding-right :        60px; /*marges interieures */
+    background:            #E8FCFF ;
+    margin-left :          10px ;  /*marge autour box A ici un peu plus grande pour espacer image avec box en-dessous */
+    margin-bottom :        10px ;
+    opacity :              0.85 ;
+    border:                2px solid rgb(250, 247, 244);
+}
+
+.boxE   {
+    display:            flex ;
+    flex-wrap:          wrap;
+    flex-direction:     column;
+    justify-content:    center ;
+    align-items:        center;
+    background:         #F7F7F7 ;
+    margin-left :       10px ;  /*marge autour box A ici un peu plus grande pour espacer image avec box en-dessous */
+    margin-bottom :     10px ;
+    opacity :           0.75 ; 
+    border:             2px solid rgb(250, 247, 244); 
+}
+
+.contenufooter {
+    text-align:           center;
+    margin-left :         10px ;  /*marge autour box A ici un peu plus grande pour espacer image avec box en-dessous */
+    margin-bottom :       10px ;
+}
+
+
+@media all and (max-device-width: 480px){  /* pour réduire marges sur écrans de téléphone soit max 1080 px */
+        
+    body {    
+        font-size:      xx-large;
+        margin :        15px 0 15px 0 ;
+        text-align:     left;
+        }  
+    
+    .photo_oiseau {
+        width :         290px ;
+        display:        block;
+        margin-left:    auto;
+        margin-right:   auto;
+        }
+
+    .boxB
+        {
+            display:            row-reverse;
+            justify-content:    space-around;
+            align-items:        flex-start;
+            flex-wrap:          wrap ;
+            margin-left :       10px ;  /*marge autour box A ici un peu plus grande pour espacer image avec box en-dessous */
+            margin-bottom :     10px ;
+            background:         #FFFDD2;   
+            border:             1px solid rgb(250, 240, 231);
+        }
+
+}
