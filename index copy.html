@@ -75,7 +75,7 @@
     </head>
 
 
-    <div class="flex-body">
+    <div class="flex-body" id="introAK">
         <div class="article-contain-intro">
     
             <div class="flex-contain-intro" style="box-shadow:0px -1px 8px -2px rgba(97,97,97,0.55); -webkit-border-radius: 5px 5px 5px 5px; -moz-border-radius: 5px 5px 5px 5px; border-radius: 5px 5px 5px 5px; padding:20px;">
@@ -280,9 +280,12 @@
 <div class="footer">
     <div class="end" style="text-align: center;">
         <h3>
-            <br><br>
             <a href="#" style="text-decoration: none;color:rgba(113, 209, 212, 0.938)" >↑ Retour en haut ↑</a>
-            <br><br>
+            <br>
+            <h3> <span class = "gras">Mes "petites" réalisations :</h3></span>
+            <span class = "italique"></span><a href="/halloween/page1.html" target="_blank"> Jeu Spécial Halloween (à jouer sur ordinateur) </a></span> <br>
+            <span class = "italique"></span><a href="/sport/entrainement.php" target="_blank"> Projet sur le sport (en cours) </a></span> <br>
+            <span class = "italique"></span><a href="/noel/arbre.html" target="blank">Faites danser votre sapin de Noël sur "Jingle bell rock" </a"></span> 
         </h3>
     
     </div>
@@ -291,37 +294,42 @@
 </div>
 
 <script>
-var b1 = document.getElementById("b1");
-var b2 = document.getElementById("b2");
-var b3 = document.getElementById("b3");
-var b4 = document.getElementById("b4");
-const elt1 = document.getElementById('bouton1');    
-const elt2 = document.getElementById('bouton2');    
-const elt4 = document.getElementById('bouton4');    
-const elt3 = document.getElementById('bouton3');    
+
+    // var b1 = document.getElementById("b1");
+    // var b2 = document.getElementById("b2");
+    // var b3 = document.getElementById("b3");
+    // var b4 = document.getElementById("b4");
+    // const elt1 = document.getElementById('bouton1');    
+    // const elt2 = document.getElementById('bouton2');    
+    // const elt4 = document.getElementById('bouton4');    
+    // const elt3 = document.getElementById('bouton3');    
 
 
 $(document).ready(function(){
   $("#bouton1").click(function(){
     $("#b1").toggleClass("display");
+    $("#introAK").css('display','none');
   });
 });
 
 $(document).ready(function(){
   $("#bouton2").click(function(){
     $("#b2").toggleClass("display");
+    $("#introAK").css('display','none');
   });
 });
 
 $(document).ready(function(){
   $("#bouton3").click(function(){
     $("#b3").toggleClass("display");
+    $("#introAK").css('display','none');
   });
 });
 
 $(document).ready(function(){
   $("#bouton4").click(function(){
     $("#b4").toggleClass("display");
+    $("#introAK").css('display','none');
   });
 });
 
@@ -344,24 +352,30 @@ $(document).ready(function(){
     //     b4.style.display='block';
     // });
 
+const intro = document.getElementById('introAK')
+
 const bb1 = document.getElementById('b1');    
     bb1.addEventListener('click', function() {         
         b1.style.display="none";
+        intro.style.display="block";
     }); 
 
 const bb2 = document.getElementById('b2');    
     bb2.addEventListener('click', function() {         
         b2.style.display="none";
+        intro.style.display="block";
     }); 
 
 const bb3 = document.getElementById('b3');    
     bb3.addEventListener('click', function() {         
         b3.style.display="none";
+        intro.style.display="block";
     }); 
 
 const bb4 = document.getElementById('b4');    
     bb4.addEventListener('click', function() {         
         b4.style.display="none";
+        intro.style.display="block";
     }); 
 
 </script>
