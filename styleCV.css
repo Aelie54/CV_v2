@@ -77,7 +77,7 @@ a:hover {               /* Apparence au survol des liens */
     background:     honeydew; 
     padding :       40px; /*encadré titre pour marge interieur sinon collé au texte */
     border-radius : 3em 1em 4em 1em / 2em 3em 1em 3em ; 
-    box-shadow:     12px 12px 2px 1px rgba(107, 107, 122, 0.342); 
+    box-shadow:     6px 6px 2px 1px rgba(107, 107, 122, 0.342); 
 }
 
 .boxB{ 
