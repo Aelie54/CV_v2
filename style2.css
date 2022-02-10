@@ -14,8 +14,16 @@ border: 1px solid #FAFBFF;
 backdrop-filter: blur(4px); 
 }
 
-body{
-    background-color: rgb(131, 131, 131);
+body {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    background-image: url(https://source.unsplash.com/random/1920x1080?landscape);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
 }
 
 #avatar{
