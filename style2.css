@@ -5,46 +5,61 @@ height: 250px;
 left: 0px;
 top: 0px;
 z-index: 1;
-opacity:0.6;
-border-bottom: solid white 3px;
+/* border-bottom: solid white 3px; */
 
-background-color: #E4F7E6;
+/* background-color: #E4F7E6;
 background-repeat: no-repeat;
 border: 1px solid #FAFBFF;
 backdrop-filter: blur(4px); 
+opacity:0.6; */
+
+background-color : rgba(216,223,227,0.4);
+background-color : hsla(202,16%,87%,0.4);
+background-color : #D8DFE366;
+
 }
 
-.bande2{
+
+.fondtransparent{
+
+    background-color : rgba(216,223,227,0.4);
+    background-color : hsla(202,16%,87%,0.4);
+    background-color : #D8DFE366;
+
+}
+
+/* .bande2{
     width: 100%;
     height: 150px;
     bottom: 0px;
     z-index: 1;
     opacity:0.6;
-    /* border-bottom: solid white 3px; */
+    // border-bottom: solid white 3px; //
     
     background-color: #E4F7E6;
     background-repeat: no-repeat;
-    /* border: 1px solid #FAFBFF; */
+    // border: 1px solid #FAFBFF; //
     backdrop-filter: blur(4px); 
 
     display: flex;
     align-items: center;
     justify-content: center;
-    }
+    } */
 
 body {
     position: relative;
     width: 100%;
     margin: 0;
-    background-image: url(https://source.unsplash.com/random/1920x1080?landscape);
-    background-repeat: no-repeat;
+    background: url(https://source.unsplash.com/random/1920x1080?landscape) no-repeat center fixed;
+
+    /* background-attachment: scroll;
     background-size: cover;
-    background-position: center;
+    background-position: center;   */
 
-    /* min-height: 100%; margin: 0; padding: 0; */
-
-    /* height: 100vh;
-    overflow: hidden; */
+    /* background-image: linear-gradient(to bottom,url("https://source.unsplash.com/random/1920x1080?landscape", rgba(255,128,255,0.5), rgba(0,0,128,0.5))); */
+    /* background-repeat: no-repeat;  */
+     /* position : fixed; */
+    /* background-attachment: local; */
 
     /* background: url(bande.jpg) no-repeat center fixed;  */
 }
@@ -126,6 +141,9 @@ background: #FFBE40;
     flex-direction: column;
     align-items: center;
 
+    /*AJOUT §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§*/
+    margin-top:50px;
+
     /* padding: 20px 0px 0px 0px; */
     /* border: 1px orange solid; */
 }
@@ -153,16 +171,17 @@ background: #FFBE40;
     font-family: 'Dancing Script', cursive;
 }
 
-a, p {
+a, p, ul, li {
     font-family: 'Dancing Script', cursive;
     font-family: 'Lato', sans-serif;
     text-decoration: none;
     font-size: 12pt;
 }
 
-h1{
+h1, h2, h3, h4{
     font-family: 'Dancing Script', cursive;
     font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 h3{
@@ -214,6 +233,7 @@ letter-spacing: 0em;
     justify-content: center;
     align-items: center;
     width: 50%;
+    margin-top: 30px;;
 }
 
 .flex-contain{

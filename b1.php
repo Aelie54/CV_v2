@@ -3,8 +3,6 @@
                 <div>
                     <h3> Diplômes </h3>
                 </div>
-                    
-                <div class="contain" style="background-color:white;">
                     <p><span class= "gras">Diplôme de Responsable de Prévention</span> <br>CESI de Villers-lès-Nancy (2018)</p> 
                     <p><span class= "gras">Licence Professionnelle Eco Gestion des Energies Renouvelables</span> <br>Faculté des Sciences de Nancy (2016)</p> 
                     <p><span class= "gras">Licence de Mécanique Energétique</span> <br>Faculté des Sciences de Nancy (2015)</p> 
