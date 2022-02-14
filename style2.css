@@ -21,36 +21,19 @@ background-color : #D8DFE366;
 
 
 .fondtransparent{
-
     background-color : rgba(216,223,227,0.4);
     background-color : hsla(202,16%,87%,0.4);
     background-color : #D8DFE366;
-
 }
 
-/* .bande2{
-    width: 100%;
-    height: 150px;
-    bottom: 0px;
-    z-index: 1;
-    opacity:0.6;
-    // border-bottom: solid white 3px; //
-    
-    background-color: #E4F7E6;
-    background-repeat: no-repeat;
-    // border: 1px solid #FAFBFF; //
-    backdrop-filter: blur(4px); 
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    } */
+.bg1 {
 
-body {
     position: relative;
     width: 100%;
     margin: 0;
-    background: url(https://source.unsplash.com/random/1920x1080?landscape) no-repeat center fixed;
+     background: url(https://source.unsplash.com/random/1920x1080?landscape) no-repeat center fixed;  
+    /*background: url(https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY0NDc4NDMyOA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920) no-repeat center fixed ; */
 
     /* background-attachment: scroll;
     background-size: cover;
@@ -61,8 +44,55 @@ body {
      /* position : fixed; */
     /* background-attachment: local; */
 
-    /* background: url(bande.jpg) no-repeat center fixed;  */
 }
+
+.bg2 {
+    position: relative;
+    width: 100%;
+    margin: 0;
+     background: url(https://source.unsplash.com/random/1920x1080?sky) no-repeat center fixed;  
+}
+
+.bg3 {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    background: url(https://source.unsplash.com/random/1920x1080?sea) no-repeat center fixed;  
+}
+
+.bg4 {
+
+    position: relative;
+    width: 100%;
+    margin: 0;
+     background: url(https://source.unsplash.com/random/1920x1080?forest) no-repeat center fixed;  
+}
+
+.bg5 {
+
+    position: relative;
+    width: 100%;
+    margin: 0;
+     background: url(https://source.unsplash.com/random/1920x1080?trek) no-repeat center fixed;  
+}
+
+.bg6 {
+
+    position: relative;
+    width: 100%;
+    margin: 0;
+     background: url(https://source.unsplash.com/random/1920x1080?sunrise) no-repeat center fixed;  
+}
+
+.bg7 {
+
+    position: relative;
+    width: 100%;
+    margin: 0;
+     background: url(https://source.unsplash.com/random/1920x1080?nature) no-repeat center fixed;   
+}
+
+
 
 html, body {
 	height: 100%;
@@ -82,8 +112,8 @@ footer {
 position: center;
 height: 225px;
 filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
-border-radius: 5000px;
-border : solid rgb(218, 210, 210) 3px;
+border-radius: 50%;
+border : solid white 3px;
 }
 
 .telecharger{
@@ -132,7 +162,7 @@ background: #FFBE40;
     flex-direction: row;
     align-items: center;
     z-index: 50;
-    padding: 20px 0px 0px 0px;
+    padding: 25px 0px 0px 0px;
     /* border: 1px orange solid; */
 }
 
@@ -141,11 +171,18 @@ background: #FFBE40;
     flex-direction: column;
     align-items: center;
 
-    /*AJOUT §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§*/
     margin-top:50px;
 
     /* padding: 20px 0px 0px 0px; */
     /* border: 1px orange solid; */
+}
+
+.etiquette{
+display:flex; 
+justify-content:center; 
+background-color : rgba(191,170,143,0.39);
+background-color : hsla(34,27%,65%,0.39);
+background-color : #BFAA8F63; /* Norme W3C, CSS4"
 }
 
 .flex-card{
@@ -156,6 +193,14 @@ background: #FFBE40;
     /* border: 1px pink solid; */
 }
 
+
+span.gras {         /*ou bien "li span" si seulement dans li */
+    font-weight:    bold;
+    }
+
+span.italique {     /*ou bien "li span" si seulement dans li */
+    font-style:     italic;
+    }
 
 .boutons{
     display:flex;
@@ -169,6 +214,10 @@ background: #FFBE40;
     margin:0;
     font-size: 35pt;
     font-family: 'Dancing Script', cursive;
+}
+
+.flex-card{
+    margin-left: 10px;
 }
 
 a, p, ul, li {
@@ -295,10 +344,3 @@ letter-spacing: 0em;
           background-position: 0% 50%;
       }
   }
-
-/*DISPLAY*/
-
-.display{ 
-    display : none;
-    border:solid;
-}

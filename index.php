@@ -2,19 +2,16 @@
 <html>
 
 <head>
-
     <meta charset="utf-8" />
     <title>CV Amélie KLEIN</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script> 
     <LINk rel="stylesheet" href="style2.css">
-
 </head>
 
-<body>
+<body class="bg1" id="body">
 
     <head>
 
@@ -27,8 +24,8 @@
                 <div class="boutons" style="padding: 0px 10px 10px 0px;">
                     <input class="favorite styled b1" type="button" id="bouton1" value="Diplômes" onclick="run1()">
                     <input class="favorite styled b2" type="button" id="bouton2" value="Soft Skills" onclick="run2()">
-                    <input class="favorite styled b3" type="button" id="bouton3" value="Compétences" onclick="run3()">
-                    <input class="favorite styled b4" type="button" id="bouton4" value="Expérience" onclick="run4()">
+                    <input class="favorite styled b3" type="button" id="bouton3" value="Expérience" onclick="run3()">
+                    <input class="favorite styled b4" type="button" id="bouton4" value="Stage" onclick="run4()">
                 </div>
 
                 <div>
@@ -51,7 +48,8 @@
                                 fill="#FF876C" />
                         </svg>
                         <span style="padding: 0px 0px 0px 25px;" class="italique"> <a href="CV_KLEINAmelie.pdf"
-                                target="_blank"> Télécharger mon CV<br></a> </span>
+                                target="_blank"> Télécharger mon CV<br></a> 
+                        </span>
                     </div>
 
                     <div style="height:15px"></div>
@@ -63,7 +61,8 @@
                                 fill="#FFBE40" />
                         </svg>
                         <span style="padding: 0px 0px 0px 15px;" class="italique"><a
-                                href="mailto:klein.amelie1991@gmail.com">M'écrire<br></a></span>
+                                href="mailto:klein.amelie1991@gmail.com">M'écrire<br></a>
+                        </span>
                     </div>
 
                 </div>
@@ -79,64 +78,50 @@
         <div class="article-contain gradient-border" >
     
             <div class="flex-contain" id="introAK">
-    
-                <div>
-                    <h1>En route pour une reconversion <br>vers le développement Web</h1>
-                </div>
-                    
-                <div class="contain">
 
-                    <ul style="list-style-image: none;"> 
-                        <li>30 ans déjà </li> 
-                        <li>Habite à Vandoeuvre-lès-Nancy</li> 
-                        <li>Permis B, véhiculée</li> 
+                <br>
+
+                <div>
+                    <h1>En route pour une reconversion vers le développement Web</h1>
+                </div>
+
+                <p> 
+                    <span class= "italique">30 ans déjà • Habite à Vandoeuvre-lès-Nancy • Permis B et véhiculée</span>
+                </p>
+
+                <div style="align-text:justify">
+
+                    <p> J'ai commencé par me former seule à la maison aux langages HTML, CSS et JS via Openclassrooms pour des débuts purement front-end. Et depuis le 25 octobre 2021, j'ai eu la chance d'intégrer une formation de développeur web full stack à Villers-lès-Nancy (centre de formation : Alaji à Villers-lès-Nancy).<br>
+                        Nous avons ainsi entammé le programme sur plusieurs thèmes : </p>
+
+                    <ul style="list-style-image:square;"> 
+                        <li> la découvertes des outils les plus importants : Git Hub et Visual Studio Code</li>
+                        <li> la création d'une base de donnée via SQL (MySQL et PhpMyAdmin), l'écriture et la compréhension des diagrammes UML, </li>
+                        <li> le langage PHP orienté objet ( Doctrine/ORM et Symfony) pour le fonctionnement back-end d'un site internet et la gestion de la base de données, </li>
+                        <li> les routes pour clarifier les chemins et le modèle MVC dans l'organisation du code, </li>
+                        <li> Les langages CSS et SCSS, ainsi l'utilisation de bootstrap et de Figma pour l'aspet visuel,  </li>
+                        <li> une approche également de Javascript, de la bibliotheque JQuerry et Ajax pour modifier le DOM, </li>
+                        <li> l'utilisation d'API pour générer le contenu d'une page (outil indisensable : Postman)<br></li>
                     </ul>
 
-                        <p> J'ai commencé par me former seule à la maison aux langages HTML, CSS et JS via Openclassrooms pour des débuts purement front-end. Et depuis le 25 octobre 2021, j'ai eu la chance d'intégrer une formation de développeur web full stack à Villers-lès-Nancy (centre de formation : Alaji à Villers-lès-Nancy).<br>
-                            Nous avons ainsi entammé le programme sur plusieurs thèmes : <br></p>
+                <p>
+                    Ainsi, et dans le cadre de ma formation, je suis à la recherche d'un stage de 3 semaines en entreprise. Celui-ci étant prévu du 16 mai au 8 juin 2022.
+                    <br><br>Vous pouvez naviguer à travers ce petit site internet que j'ai réalisé pour découvrir mon parcour avant de commencer cette formation ! 
+                    <br><br>
+                    <img src="http://ekladata.com/9hhrhkwu_NGxIUyZqG9Mcp6rTyo.png" style="height:20px; margin-right:5px;">Pour changer de background, essayez la combiaison de touches : <span class= "italique" style="text-decoration:underline"> Ctrl + Shift + r </span></div>
+                    <br><br>
+                </p>
 
-                            <ul style="list-style-image:square;"> 
-                                <li> la découvertes des outils les plus importants : Git Hub et Visual Studio Code</li>
-                                <li> la création d'une base de donnée via SQL (MySQL et PhpMyAdmin), l'écriture et la compréhension des diagrammes UML, </li>
-                                <li> le langage PHP pour le fonctionnement back-end d'un site internet et la gestion de la base de données, avec une orientation objet (avec Doctrine/ORM et Symfony), </li>
-                                <li> les rootes pour clarifier les chemins et le modèle MVC dans l'organisation du code, </li>
-                                <li> Les langages CSS et SCSS, ainsi l'utilisation de bootstrap et de Figma pour l'aspet visuel,  </li>
-                                <li> une approche également de Javascript et de la bibliotheque JQuerry, </li>
-                                <li> l'utilisation d'API pour générer le contenu d'une page (avec utilisation de Postman)<br></li>
-                            </ul>
+                <button class="change" type="button" id="change" value="1" onclick="changeClass()"> changer le background </button>
 
-                        <p>Ainsi, et dans le cadre de ma formation, je suis à la recherche d'un stage de découverte de 3 semaines en entreprise. Celle-ci étant prévu du 16 mai au 8 juin 2022.
-                            <br><br>Vous pouvez naviguer à travers ce petit site internet que j'ai réalisé pour découvrir mon parcour avant de commencer cette formation !
-                        <br><br></p>
-                </div>
             </div>
+            <br>
         </div>
     </div>
-
-
-<div id="b1" class="display">
+    
 
 </div>
 
-<div id="b2" class="display">
-
-</div>
-
-
-<div id="b4" class="display">
-
-</div>
-
-<div id="b3" class="display">
-
-</div>
-
-<!-- <div class="end" style="text-align: center;">
-    <h3> <br><img src="birdy.png" style="width: 800px; opacity:70%";/><br><br></h3>
-</div> -->
-  
-
-<!-- <div class="bande2" style="z-index=53;"> -->
 <div class="bas fondtransparent">
     <div style="z-index:53">
         <div><h3> <span class = "gras">Mes "petites" réalisations :</h3></span></div>
@@ -149,7 +134,6 @@
     
     </div>
 </div>
-</div>
 
 </body>
 
@@ -158,7 +142,6 @@
     
     function run1() {
  
-
         $.ajax({
             url: "./b1.php", 
             dataType: "html", 
@@ -175,76 +158,111 @@
     }
 
     function run2() {
- 
+        
+        $.ajax({
+            url: "./b2.php", 
+            dataType: "html", 
+            
+            success: function(response){
+                //alert("success !");
+                document.getElementById("introAK").innerHTML = response;
+            },
 
- $.ajax({
-     url: "./b2.php", 
-     dataType: "html", 
-     
-     success: function(response){
-         //alert("success !");
-         document.getElementById("introAK").innerHTML = response;
-     },
+            error:function(error){
+                console.log(error);
+            }
+        });
+    }
 
-     error:function(error){
-         console.log(error);
-     }
- });
-}
+    function run3() {
+        $.ajax({
+            url: "./b3.php", 
+            dataType: "html", 
+            
+            success: function(response){
+                //alert("success !");
+                document.getElementById("introAK").innerHTML = response;
+            },
 
-function run3() {
- 
+            error:function(error){
+                console.log(error);
+            }
+        });
+    }
 
- $.ajax({
-     url: "./b3.php", 
-     dataType: "html", 
-     
-     success: function(response){
-         //alert("success !");
-         document.getElementById("introAK").innerHTML = response;
-     },
+    function run4() {
+        $.ajax({
+            url: "./b4.php", 
+            dataType: "html", 
+            
+            success: function(response){
+                //alert("success !");
+                document.getElementById("introAK").innerHTML = response;
+            },
 
-     error:function(error){
-         console.log(error);
-     }
- });
-}
+            error:function(error){
+                console.log(error);
+            }
+        });
+    }
 
-function run4() {
- 
- $.ajax({
-     url: "./b4.php", 
-     dataType: "html", 
-     
-     success: function(response){
-         //alert("success !");
-         document.getElementById("introAK").innerHTML = response;
-     },
+    function run5() {   
+        $.ajax({
+            url: "./intro.php", 
+            dataType: "html", 
+            
+            success: function(response){
+                //alert("success !");
+                document.getElementById("introAK").innerHTML = response;
+            },
 
-     error:function(error){
-         console.log(error);
-     }
- });
-}
+            error:function(error){
+                console.log(error);
+            }
+        });
+    }
+
+// $(document).ready(function(){
+//   $("#change").click(function(){
+//     //   alert("bjr");
+//     //   $( "#body" ).odd().removeClass( [ "bg1", "bg2","bg3","bg4", "bg5","bg6","bg7" ] );
+//     $( "#change" ).removeClass( [ "bg1", "bg2","bg3","bg4", "bg5","bg6","bg7" ]);
+ //  });
+// });
 
 
-function run5() {
- 
- $.ajax({
-     url: "./intro.php", 
-     dataType: "html", 
-     
-     success: function(response){
-         //alert("success !");
-         document.getElementById("introAK").innerHTML = response;
-     },
+                        //  function changeClass() { 
+                        //     document.getElementById('body').className = "bg2"; //-> fonctionne 1 fois
+                        //     document.getElementById("change").id = "change2"; //-> fonctionne une fois
+                        // }
 
-     error:function(error){
-         console.log(error);
-     }
- });
+                        // $("#change").click(function() { 
+                        //     document.getElementById('body').className = "bg1";
+                        //     document.getElementById("change").id = "change1";
+                        //   });
+                        // })
+                        // }); //fonctionne
+
+                        // $("#change1").click(function() { 
+                        //     document.getElementById('body').className = "bg2";
+                        //     document.getElementById("change1").id = "change2";
+                        // }); //fonctionne_pas
+
+
+// $("#change").dblclick(function() { alert('double click'); });
+
+function changeClass() { 
+    function fonc(){
+
+    var value=document.getElementById("change").value;
+    
+    if (value=="1"){
+        alert("ca clique")
+        document.getElementById('body').className = "bg2";
+        var value=document.getElementById("change").value=2;
+    }
 }
 
 </script>
 
-</html>
+</html>""
