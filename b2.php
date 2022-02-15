@@ -43,6 +43,6 @@
 
 </div>
                 
-<button class="favorite styled" type="button" id="retour" onclick="run5()"> Add to favorites</button>
+<input class="favorite styled b5" type="button" id="bouton4"  onclick="run5()" value="Retour">
 
 <br><hr>
