@@ -155,7 +155,6 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .ecrire{
-
 position: absolute;
 width: 56px;
 height: 54px;
@@ -372,24 +371,62 @@ letter-spacing: 0em;
 
 
 
+ /* RESPONSIVE*/
+ @media (orientation: landscape) and (max-width : 1200px) {}  /*1150*/
+
+ @media (max-aspect-ratio: 3/4) {
+    
+
   /* RESPONSIVE*/
+  @media (orientation: landscape) and (max-width : 1200px) {}  /*1150*/
 
-@media (max-width: 1150px) { 
+  @media (max-aspect-ratio: 3/4) {
+     
+ #Nom{
+        padding:0;
+        margin:0;
+        font-size: 70pt;
+        font-family: 'Dancing Script', cursive;
+        color: rgb(0, 0, 0); text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em ;
+    }
 
-     #mesboutons2flex{
+
+#mesboutons2flex{
          display:block;
          margin-top:20px;
      }
 
-     #mesboutons2{
+ a, p, ul, li {
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+        font-size: 18pt;
+    }
+
+     /* #mesboutons2{
         display: flex;
         justify-content: center;
         flex-direction:row;
-    } 
+    }  */
+
+    #mesboutons2flex{
+        display:block;
+        margin-top:20px;
+    }
+
+    #mesboutons2{
+       display: flex;
+       justify-content: center;
+       flex-direction:column;
+       align-items: center;
+   }
 
     #mesboutons{
         display : none
     }
+
+.article-contain{
+margin-top : 90px; }
 
     .flex-body{
         margin:0;
@@ -405,15 +442,20 @@ letter-spacing: 0em;
         align-items: center;
         z-index: 50;
         padding: 25px 0px 0px;
+	margin-bottom : 90px; 
     }
 
-    #avatar {
-        position: center;
-        height: 180px;
-        filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
-        border-radius: 50%;
-        border: solid white 3px;
-    }
+ #avatar {
+       position: center;
+       height: 250px;
+       filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
+       border-radius: 80%;
+       border: solid white 3px;
+   }
+
+   .article-contain{
+       margin-bottom:90px;
+   }
 
     .bande{
         display:none;
@@ -541,39 +583,44 @@ letter-spacing: 0em;
 
 }
 
- @media (max-width: 780px) { 
 
-    #mesboutons2flex{
-        display:block;
-        margin-top:20px;
-    }
+}
 
-    #mesboutons2{
-       display: flex;
-       justify-content: center;
-       flex-direction:column;
-       align-items: center;
+/*
+
+@media (orientation: landscape) and (max-width : 1100px) {  780
+
+   #mesboutons2flex{
+       display:block;
+       margin-top:20px;
    }
 
-        #avatar {
-            height: 100px;
-        } 
+   #mesboutons2{
+      display: flex;
+      justify-content: center;
+      flex-direction:column;
+      align-items: center;
+  }
 
-        #Nom{
-            font-size: 30pt;
+       #avatar {
+           height: 100px;
+       } 
 
-        }
+       #Nom{
+           font-size: 30pt;
 
-        .entête{
-            justify-content: center;
-        }
+       }
 
-        .article-contain{
-            margin-top: 10px;;
-        }
+       .entête{
+           justify-content: center;
+       }
 
-        .flex-contain {
-            width: 90%;
-        } 
+       .article-contain{
+           margin-top: 10px;;
+       }
 
-    }
+       .flex-contain {
+           width: 90%;
+       } 
+
+   }
