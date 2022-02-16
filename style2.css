@@ -376,11 +376,16 @@ letter-spacing: 0em;
 
 @media (max-width: 1150px) { 
 
-    /* #mesboutons2{
-        justify-content: center;
+     #mesboutons2flex{
+         display:block;
+         margin-top:20px;
+     }
+
+     #mesboutons2{
         display: flex;
-        display : block
-    } */
+        justify-content: center;
+        flex-direction:row;
+    } 
 
     #mesboutons{
         display : none
@@ -426,15 +431,17 @@ letter-spacing: 0em;
 
  @media (max-width: 780px) { 
 
-    .boutons2 {
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        z-index: 22;
-        margin-top : 30px;
-        align-items: center;
-        align-content: center;
+    #mesboutons2flex{
+        display:block;
+        margin-top:20px;
     }
+
+    #mesboutons2{
+       display: flex;
+       justify-content: center;
+       flex-direction:column;
+       align-items: center;git 
+   }
 
         /* #mesboutons2{
             display: flex;
