@@ -419,6 +419,126 @@ letter-spacing: 0em;
         display:none;
     }
 
+    .bg1 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?landscape) no-repeat center fixed ;  
+         background-size: cover;
+    }
+    
+    .bg2 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?sky) no-repeat center fixed;  
+         background-size: cover;
+    }
+    
+    .bg3 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        background: url(https://source.unsplash.com/random/1920x1080?sea) no-repeat center fixed;  
+        background-size: cover;
+    }
+    
+    .bg4 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?forest) no-repeat center fixed;  
+         background-size: cover;
+    }
+    
+    .bg5 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?colors) no-repeat center fixed;  
+         background-size: cover;
+    }
+    
+    .bg6 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?sunrise) no-repeat center fixed;  
+         background-size: cover;
+    }
+    
+    .bg7 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?nature) no-repeat center fixed;   
+         background-size: cover;
+    }
+    
+    .bg8 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?flower) no-repeat center fixed;   
+         background-size: cover;
+    }
+    
+    .bg9 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?design) no-repeat center fixed;   
+         background-size: cover;
+    }
+    
+    .bg10 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?modern) no-repeat center fixed;   
+         background-size: cover;
+    }
+    
+    .bg11 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?futur) no-repeat center fixed;   
+         background-size: cover;
+    }
+    
+    .bg12 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?sunset) no-repeat center fixed;   
+         background-size: cover;
+    }
+    
+    .bg13 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?work) no-repeat center fixed;   
+         background-size: cover;
+    }
+    
+    .bg14 {
+            position: relative;
+            width: 100%;
+            margin: 0;
+             background: url(https://source.unsplash.com/random/1920x1080?snow) no-repeat center fixed;   
+             background-size: cover;
+    }
+    
+    .bg15 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?winter) no-repeat center fixed;   
+         background-size: cover;
+    }
+
 }
 
  @media (max-width: 780px) { 
